@@ -17,7 +17,7 @@ function App() {
           <Link to="/products">Products</Link>
         </nav>
         <Routes>
-          <Route exact path="/" component={Home} />
+          <Route path="/" component={Home} />
           <Route path="/about">
             <About />
           </Route>
