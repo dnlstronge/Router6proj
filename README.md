@@ -1,3 +1,22 @@
+
+Simple project set up to learn install of react-router 6 on an older version. 
+The project has react-router 5.1 as a dependency and I want to amend this and update to the latest version. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
