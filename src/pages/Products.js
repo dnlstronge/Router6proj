@@ -13,7 +13,7 @@ export default function Products() {
           </div>
         ))}
       </div>
-      <h3>Tees</h3>
+      <h3>T-shirts</h3>
       <div className="products">
         {[4,5,6,7].map(p => (
           <div key={p}>
@@ -23,7 +23,7 @@ export default function Products() {
           </div>
         ))}
       </div>
-      <h3>Sneakers</h3>
+      <h3>Mugs</h3>
       <div className="products">
         {[8,9,10,11].map(p => (
           <div key={p}>
