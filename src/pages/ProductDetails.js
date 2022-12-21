@@ -5,7 +5,7 @@ import Offers from "./Offers"
 
 export default function ProductDetails() {
   const { id } = useParams()
-  const { path } = useRouteMatch()
+  // const { path } = useRouteMatch()
 
   return (
     <div className="content">
@@ -19,10 +19,10 @@ export default function ProductDetails() {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi voluptate neque harum. Quam facere accusamus exercitationem in quidem mollitia eligendi porro eos voluptates iure incidunt, laudantium sed harum omnis quasi?</p>
         </div>
       </div>
-
+{/* 
       <Route path={`${path}/offers`}>
         <Offers />
-      </Route>
+      </Route> */}
     </div>
   )
 }
