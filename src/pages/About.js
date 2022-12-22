@@ -1,4 +1,4 @@
-import { Route, useNavigate} from "react-router-dom"
+import { Route, useNavigate, Routes } from "react-router-dom"
 
 // nested routes
 import Offers from "./Offers"
