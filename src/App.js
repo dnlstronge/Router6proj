@@ -9,7 +9,7 @@ import ProductDetails from './pages/ProductDetails'
 
 
 function App() {
-  const [cartIsEmpty] = useState()
+  const [cartIsEmpty] = useState(true)
   return (
     <div className="App">
       <BrowserRouter>
@@ -30,6 +30,9 @@ function App() {
                 <p>Hello!</p>
               </div> )} />
             <Route path="/redirect" element={<Navigate to="/about"/>}/>
+            <Route 
+              path="/checkout" 
+              element= {cartIsEmpty ? <Navigate to="/products" /> : <p>Checkout</p>} />
             
           </Routes>
       </BrowserRouter>
