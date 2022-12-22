@@ -14,7 +14,7 @@ export default function About() {
 
       <button onClick={() => navigate("/products")}>See our products</button> 
       <Routes>
-        <Route path="/about/offers" element={<Offers />}/>
+        <Route path="offers" element={<Offers />}/>
       </Routes>
     </div>
   )
