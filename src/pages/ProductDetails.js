@@ -19,10 +19,10 @@ export default function ProductDetails() {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi voluptate neque harum. Quam facere accusamus exercitationem in quidem mollitia eligendi porro eos voluptates iure incidunt, laudantium sed harum omnis quasi?</p>
         </div>
       </div>
-{/* 
-      <Route path={`${path}/offers`}>
-        <Offers />
-      </Route> */}
+      <Routes>
+        <Route path={`${path}/offers`} element={<Offers/>}>
+        </Route>
+      </Routes>
     </div>
   )
 }
