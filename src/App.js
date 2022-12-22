@@ -9,7 +9,7 @@ import ProductDetails from './pages/ProductDetails'
 
 
 function App() {
-  const [cartIsEmpty] = useState(true)
+  const [cartIsEmpty] = useState(false)
   return (
     <div className="App">
       <BrowserRouter>
