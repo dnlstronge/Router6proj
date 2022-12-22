@@ -5,7 +5,7 @@ import Offers from "./Offers"
 
 export default function ProductDetails() {
   const { id } = useParams()
-  // const { path } = useRouteMatch()
+ 
 
   return (
     <div className="content">
@@ -20,7 +20,7 @@ export default function ProductDetails() {
         </div>
       </div>
       <Routes>
-        <Route path={`${path}/offers`} element={<Offers/>}>
+        <Route path={`offers`} element={<Offers/>}>
         </Route>
       </Routes>
     </div>
