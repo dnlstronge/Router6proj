@@ -1,4 +1,5 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Link, Route, Routes, Navigate } from 'react-router-dom'
+
 
 // pages
 import Home from './pages/Home'
@@ -25,8 +26,9 @@ function App() {
               <div>
                 <h2>Test page</h2>
                 <p>Hello!</p>
-              </div>
-            )} />
+              </div> )} />
+            <Route path="/redirect" element={<Navigate to="/about"/>}/>
+            
           </Routes>
       </BrowserRouter>
     </div>
