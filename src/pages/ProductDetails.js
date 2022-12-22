@@ -1,4 +1,4 @@
-import { Route, useParams } from "react-router-dom"
+import { Route, useParams, Routes } from "react-router-dom"
 
 // nested routes
 import Offers from "./Offers"
