@@ -1,5 +1,5 @@
 import { BrowserRouter, Link, Route, Routes, Navigate } from 'react-router-dom'
-
+import { useState } from 'react'
 
 // pages
 import Home from './pages/Home'
@@ -7,7 +7,9 @@ import About from './pages/About'
 import Products from './pages/Products'
 import ProductDetails from './pages/ProductDetails'
 
+
 function App() {
+  const [cartIsEmpty] = useState()
   return (
     <div className="App">
       <BrowserRouter>
