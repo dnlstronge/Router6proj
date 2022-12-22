@@ -1,9 +1,10 @@
-import { Route } from "react-router-dom"
+import { Route, useNavigate} from "react-router-dom"
 
 // nested routes
 import Offers from "./Offers"
 
 export default function About() {
+  const navigate = useNavigate()
   return (
     <div className="content">
       <h2>About Us</h2>
